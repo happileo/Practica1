@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Menu</title>
+    </h:head>
+    
+    <h:body>
+        <h:form>
+            <p:panelMenu style="font-size: 12px; width: 1500px">
+                <p:submenu label="Registro">
+                    <p:menuitem value="Registro de medicamento" outcome="/registroMedicamento/registroMedicamento.xhtml"/>
+                </p:submenu>
+                <p:submenu label="Reportes">
+                    <p:menuitem value="reporte General"  icon="ui-icon-calendar"/>
+                </p:submenu>
+                <p:submenu label="Reportes de beneficiario">
+                    <p:menuitem value="Reporte beneficiario"  icon="ui-icon-calendar"/>
+                </p:submenu>
+                <p:submenu label="Reportes de medicamento">
+                    <p:menuitem value="Reporte de medicamento"  icon="ui-icon-calendar"/>
+                </p:submenu>
+                <p:submenu label="Medicamento">
+                    <p:menuitem value="Registro"  icon="ui-icon-calendar"></p:menuitem>
+                    <p:menuitem value="Modificacion" icon="ui-icon-calendar"></p:menuitem>
+                </p:submenu>
+            </p:panelMenu>
+        </h:form>
+    </h:body>
+</html>
